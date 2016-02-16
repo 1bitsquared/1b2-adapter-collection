@@ -37,6 +37,7 @@ LIBS:pkl_molex
 LIBS:pkl_power
 LIBS:pkl_sensor
 LIBS:pkl_texas
+LIBS:20pin_100mil_jtag_adapter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -171,4 +172,18 @@ Text Label 5200 3650 0    60   ~ 0
 RST
 Text Label 5200 2950 0    60   ~ 0
 VCC
+$Comp
+L Jumper J1
+U 1 1 56C38629
+P 5700 2950
+F 0 "J1" H 5800 2850 60  0000 C CNN
+F 1 "Jumper" H 5700 3100 60  0000 C CNN
+F 2 "pkl_jumpers:J_0402" H 5700 2950 60  0001 C CNN
+F 3 "" H 5700 2950 60  0000 C CNN
+F 4 "ANY" H 5700 2950 60  0001 C CNN "Source"
+	1    5700 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 2950
+Connection ~ 5600 2950
 $EndSCHEMATC
