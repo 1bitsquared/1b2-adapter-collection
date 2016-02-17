@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.1-4.201602132031+6195~38~ubuntu14.04.1-stable)
 
   (general
-    (links 79)
+    (links 80)
     (no_connects 0)
     (area 19.924999 19.924999 38.075001 48.075001)
     (thickness 1.6)
@@ -837,7 +837,7 @@
     (fp_text reference PH2 (at -2.5 -3.9375 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SH06B-SRSS-TB (at 0 4.2625 270) (layer F.Fab) hide
+    (fp_text value SM06B-SRSS-TB (at 0 4.2625 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center -3.5 -2.1875) (end -3.25 -2.1875) (layer F.SilkS) (width 0.15))
@@ -1194,6 +1194,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model walter/conn_df13/df13a-6p-125h.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module pkl_logos:1b2_Logo_SilkS_10mm (layer B.Cu) (tedit 5531811B) (tstamp 56B5518E)
@@ -1270,7 +1275,7 @@
   (gr_text "PX\nCon" (at 25.4 20.9 90) (layer F.SilkS) (tstamp 56C4C61C)
     (effects (font (size 0.5 0.5) (thickness 0.125)) (justify right))
   )
-  (gr_text DCD-Mini (at 28.8 38.8 90) (layer F.SilkS) (tstamp 56C4C607)
+  (gr_text DCD-Medium (at 28.8 38.3 90) (layer F.SilkS) (tstamp 56C4C607)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (gr_text "(C) 2016\nCC-BY-SA" (at 29 45.2) (layer B.SilkS) (tstamp 56C4C57D)
@@ -1345,7 +1350,7 @@
   (gr_text "JTAG IN" (at 30.7 22.2 360) (layer F.SilkS) (tstamp 56C4A936)
     (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify left))
   )
-  (gr_text DCD-Micro (at 29.6 45.5 90) (layer F.SilkS) (tstamp 56B55244)
+  (gr_text DCD-Small (at 29.6 45.5 90) (layer F.SilkS) (tstamp 56B55244)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (gr_text 1BitSquared (at 34.8 27.3 90) (layer B.SilkS) (tstamp 56B55204)

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/esdentem/projects/blackmagic/bmpm2-hardware-git/adapters/dronecode/v1.0/dronecode_adapter.sch)
-    (date "Mon 15 Feb 2016 06:15:09 PM PST")
+    (date "Tue 16 Feb 2016 05:29:12 PM PST")
     (tool "Eeschema 4.0.1-4.201602132031+6195~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -24,7 +24,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 56B39A9A))
     (comp (ref PH2)
-      (value SH06B-SRSS-TB)
+      (value SM06B-SRSS-TB)
       (footprint Connectors_JST_SH:Connectors_JST_SM06B-SRSS-TB)
       (fields
         (field (name Source) ANY))
