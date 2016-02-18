@@ -2,8 +2,8 @@
 
   (general
     (links 66)
-    (no_connects 3)
-    (area 16.175 15.15 44 50.251191)
+    (no_connects 0)
+    (area 19.924999 19.924999 34.075001 47.075001)
     (thickness 1.6)
     (drawings 33)
     (tracks 24)
@@ -927,7 +927,7 @@
   (gr_text VCC (at 26.2 45) (layer F.SilkS) (tstamp 56B551D8)
     (effects (font (size 1 1) (thickness 0.25)) (justify left))
   )
-  (gr_text "Cortex-10Pin to\nARM-20Pin\nJTAG adapter" (at 29.45 22.45 360) (layer F.SilkS)
+  (gr_text "Cortex-10Pin to\nARM-20Pin\nJTAG adapter" (at 30.7 22.45) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (gr_text VCC (at 26.2 45 180) (layer B.SilkS) (tstamp 56B51ABF)
