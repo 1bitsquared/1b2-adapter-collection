@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5-e0-6337~49~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
 
   (general
-    (links 72)
-    (no_connects 2)
-    (area 19.949999 31.949999 40.050001 45.050001)
+    (links 69)
+    (no_connects 0)
+    (area 16.305 23.124999 52.85 51.7)
     (thickness 1.6)
     (drawings 33)
     (tracks 31)
@@ -69,7 +69,7 @@
     (pad_size 2.032 1.7272)
     (pad_drill 1.016)
     (pad_to_mask_clearance 0)
-    (aux_axis_origin 0 0)
+    (aux_axis_origin 20 32)
     (grid_origin 30 35.5)
     (visible_elements FFFFFF7F)
     (pcbplotparams
@@ -919,6 +919,7 @@
   (module pkl_samtec:FTSH-105-XX-X-DV (layer F.Cu) (tedit 576E3874) (tstamp 58487BA2)
     (at 30 40.5 180)
     (path /56B39A9A)
+    (attr smd)
     (fp_text reference X1 (at 0 4.5 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -984,6 +985,7 @@
   (module pkl_buttons_switches:Tact_Switch_Top_B3U-1000P (layer F.Cu) (tedit 5753DB6A) (tstamp 5876EAD9)
     (at 38 40 180)
     (path /56C4161E)
+    (attr smd)
     (fp_text reference SW1 (at -2.5 0 450) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
