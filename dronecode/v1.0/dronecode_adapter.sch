@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:dronecode_adapter-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -155,37 +156,37 @@ TCK/SWCLK
 $Comp
 L PH1X4 PH1
 U 1 1 56B30FD5
-P 4550 2300
-F 0 "PH1" H 4550 2550 50  0000 C CNN
-F 1 "PH1X4" V 4650 2300 50  0000 C CNN
-F 2 "Connectors_Molex:Connector_Molex_PicoBlade_53261-0471" H 4550 2300 60  0001 C CNN
-F 3 "" H 4550 2300 60  0000 C CNN
-F 4 "ANY" H 4550 2300 60  0001 C CNN "Source"
-	1    4550 2300
-	1    0    0    1   
+P 4250 2300
+F 0 "PH1" H 4250 2550 50  0000 C CNN
+F 1 "PH1X4" V 4350 2300 50  0000 C CNN
+F 2 "Connectors_Molex:Connector_Molex_PicoBlade_53261-0471" H 4250 2300 60  0001 C CNN
+F 3 "" H 4250 2300 60  0000 C CNN
+F 4 "ANY" H 4250 2300 60  0001 C CNN "Source"
+	1    4250 2300
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4350 2450 4250 2450
+	4450 2450 4550 2450
 Wire Wire Line
-	4250 2450 4250 2650
+	4550 2450 4550 2650
 $Comp
 L GND #PWR03
 U 1 1 56B31064
-P 4250 2650
-F 0 "#PWR03" H 4250 2400 50  0001 C CNN
-F 1 "GND" H 4250 2500 50  0000 C CNN
-F 2 "" H 4250 2650 50  0000 C CNN
-F 3 "" H 4250 2650 50  0000 C CNN
-	1    4250 2650
-	1    0    0    -1  
+P 4550 2650
+F 0 "#PWR03" H 4550 2400 50  0001 C CNN
+F 1 "GND" H 4550 2500 50  0000 C CNN
+F 2 "" H 4550 2650 50  0000 C CNN
+F 3 "" H 4550 2650 50  0000 C CNN
+	1    4550 2650
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 2250 4250 2250
+	4450 2250 4550 2250
 Wire Wire Line
-	4350 2150 4250 2150
-Text Label 4250 2250 2    60   ~ 0
+	4450 2150 4550 2150
+Text Label 4550 2250 0    60   ~ 0
 TX
-Text Label 4250 2150 2    60   ~ 0
+Text Label 4550 2150 0    60   ~ 0
 RX
 $Comp
 L PH1X6 PH3
@@ -272,7 +273,7 @@ RX
 Text Label 6750 2050 2    60   ~ 0
 TX
 $Comp
-L Jumper J1
+L pkl_jumper J1
 U 1 1 56B54FEC
 P 4150 3250
 F 0 "J1" H 4150 3150 60  0000 C CNN
@@ -313,7 +314,7 @@ F 3 "" H 8100 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper J4
+L pkl_jumper J4
 U 1 1 56B55473
 P 8000 2650
 F 0 "J4" H 8000 2550 60  0000 C CNN
@@ -350,7 +351,7 @@ TX
 Text Label 8100 3050 2    60   ~ 0
 RX
 $Comp
-L Jumper J2
+L pkl_jumper J2
 U 1 1 56B55643
 P 5450 2550
 F 0 "J2" H 5450 2450 60  0000 C CNN
@@ -362,7 +363,7 @@ F 4 "ANY" H 5450 2550 60  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper J3
+L pkl_jumper J3
 U 1 1 56B5575F
 P 5450 2750
 F 0 "J3" H 5450 2650 60  0000 C CNN

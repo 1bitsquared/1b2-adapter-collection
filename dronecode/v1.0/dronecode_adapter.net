@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/esdentem/projects/blackmagic/bmpm2-hardware-git/adapters/dronecode/v1.0/dronecode_adapter.sch)
-    (date "Tue 16 Feb 2016 05:29:12 PM PST")
-    (tool "Eeschema 4.0.1-4.201602132031+6195~38~ubuntu14.04.1-stable")
+    (date "Sun 04 Jun 2017 04:01:49 PM PDT")
+    (tool "Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "DroneCode SWD/UART adapter")
@@ -52,7 +52,7 @@
       (footprint pkl_jumpers:J_0402)
       (fields
         (field (name Source) ANY))
-      (libsource (lib pkl_misc) (part Jumper))
+      (libsource (lib pkl_misc) (part pkl_jumper))
       (sheetpath (names /) (tstamps /))
       (tstamp 56B54FEC))
     (comp (ref PH4)
@@ -68,7 +68,7 @@
       (footprint pkl_jumpers:J_0402)
       (fields
         (field (name Source) ANY))
-      (libsource (lib pkl_misc) (part Jumper))
+      (libsource (lib pkl_misc) (part pkl_jumper))
       (sheetpath (names /) (tstamps /))
       (tstamp 56B55473))
     (comp (ref J2)
@@ -76,7 +76,7 @@
       (footprint pkl_jumpers:J_0402)
       (fields
         (field (name Source) ANY))
-      (libsource (lib pkl_misc) (part Jumper))
+      (libsource (lib pkl_misc) (part pkl_jumper))
       (sheetpath (names /) (tstamps /))
       (tstamp 56B55643))
     (comp (ref J3)
@@ -84,7 +84,7 @@
       (footprint pkl_jumpers:J_0402)
       (fields
         (field (name Source) ANY))
-      (libsource (lib pkl_misc) (part Jumper))
+      (libsource (lib pkl_misc) (part pkl_jumper))
       (sheetpath (names /) (tstamps /))
       (tstamp 56B5575F)))
   (libparts
@@ -103,13 +103,6 @@
         (pin (num 8) (name TDI) (type output))
         (pin (num 9) (name GND) (type power_in))
         (pin (num 10) (name tRST) (type output))))
-    (libpart (lib pkl_misc) (part Jumper)
-      (fields
-        (field (name Reference) J)
-        (field (name Value) Jumper))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib pkl_conn) (part PH1X4)
       (footprints
         (fp Pin_Header_Straight_1X04)
@@ -139,12 +132,19 @@
         (pin (num 3) (name ~) (type passive))
         (pin (num 4) (name ~) (type passive))
         (pin (num 5) (name ~) (type passive))
-        (pin (num 6) (name ~) (type passive)))))
+        (pin (num 6) (name ~) (type passive))))
+    (libpart (lib pkl_misc) (part pkl_jumper)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) pkl_jumper))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical pkl_conn)
-      (uri /home/esdentem/projects/blackmagic/bmpm2-hardware-git/lib/pkl/pkl_conn.lib))
     (library (logical pkl_misc)
-      (uri /home/esdentem/projects/blackmagic/bmpm2-hardware-git/lib/pkl/pkl_misc.lib)))
+      (uri /home/esdentem/projects/blackmagic/bmpm2-hardware-git/lib/pkl/pkl_misc.lib))
+    (library (logical pkl_conn)
+      (uri /home/esdentem/projects/blackmagic/bmpm2-hardware-git/lib/pkl/pkl_conn.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref PH3) (pin 6))
