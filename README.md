@@ -1,3 +1,6 @@
+1BitSquared adapter collection
+==============================
+
 This repository contains a collection of various adapter board designs created
 by Piotr Esden-Tempski and 1BitSquared.
 
