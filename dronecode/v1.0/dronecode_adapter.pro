@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../lib/pkl
+LibDir=../../lib/pkl
 [eeschema/libraries]
 LibName1=power
 LibName2=device
