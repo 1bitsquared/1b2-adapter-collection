@@ -1,0 +1,9 @@
+*.bak
+*.kicad_pcb-bak
+*.zip
+*.net
+*gerber*
+*stencil*
+*.xml
+*.pdf
+*.pos
