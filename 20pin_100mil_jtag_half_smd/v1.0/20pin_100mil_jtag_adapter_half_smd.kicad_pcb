@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
 
   (general
     (links 71)
@@ -66,7 +66,7 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 0.65 0.6)
+    (pad_size 0.74 2.8)
     (pad_drill 0)
     (pad_to_mask_clearance 0.07)
     (aux_axis_origin 0 0)
@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber))
+      (outputdirectory 20pin_half_smd_adapter))
   )
 
   (net 0 "")
@@ -901,7 +901,7 @@
       (net 3 /VCC))
   )
 
-  (module pkl_samtec:FTSH-105-XX-X-DV (layer F.Cu) (tedit 576E3874) (tstamp 59348986)
+  (module pkl_samtec:FTSH-105-XX-X-DV (layer F.Cu) (tedit 5A30FC2F) (tstamp 59348986)
     (at 32.4 33.5 270)
     (path /56B39A9A)
     (fp_text reference X1 (at 0 4.5 270) (layer F.Fab)
@@ -927,7 +927,7 @@
     (fp_line (start 1.9812 -2.8956) (end 1.8288 -2.8956) (layer F.SilkS) (width 0.15))
     (fp_line (start 3.15 2.9) (end 3.15 -2.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -3.15 2.9) (end -3.15 -2.9) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at 2.54 -2 90) (size 0.74 2.8) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd oval (at 2.54 -2 90) (size 0.74 2.8) (layers F.Cu F.Paste F.Mask)
       (net 3 /VCC))
     (pad 2 smd rect (at 2.54 2 90) (size 0.74 2.8) (layers F.Cu F.Paste F.Mask)
       (net 2 /TMS))
@@ -953,7 +953,7 @@
     )
   )
 
-  (gr_text 1 (at 33.9 37.5) (layer F.SilkS) (tstamp 59348BDE)
+  (gr_text 1 (at 34.4 37.8 90) (layer F.SilkS) (tstamp 59348BDE)
     (effects (font (size 1 1) (thickness 0.25)) (justify left))
   )
   (gr_text RST (at 35.4 22.6 90) (layer F.SilkS) (tstamp 59348B41)
