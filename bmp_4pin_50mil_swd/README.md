@@ -41,7 +41,7 @@ Pinout
 Source / Buy
 ============
 
- * [OSHPark Bare Printed Circuit Board](https://oshpark.com/projects/bnWpq2za)
+ * [OSHPark Bare Printed Circuit Board](https://oshpark.com/shared_projects/bnWpq2za)
  * [1BitSquared USA](https://1bitsquared.com/products/jtag-swd-adapter)
  * [1BitSquared Germany/EU](https://1bitsquared.de/products/jtag-swd-adapter)
 
