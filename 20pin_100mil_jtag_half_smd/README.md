@@ -7,7 +7,7 @@ connectors.
 Source
 ======
 
- * OSHPark: N/A
+ * [OSHPark Bare PCB](https://oshpark.com/shared_projects/d2tLNzvB)
  * [1BitSquared USA](https://1bitsquared.com/products/20pin-jtag-adapter)
  * [1BitSquared Germany/EU](https://1bitsquared.de/products/20pin-jtag-adapter)
 
