@@ -73,7 +73,7 @@ TI 20pin connector aka 2 Row 10 Pin 0.05" pitch connector:
 Source / Buy
 ============
 
- * OSHPark: N/A
+ * [OSHPark Bare PCB](https://oshpark.com/shared_projects/ahEapyii)
  * 1BitSquared: Will be available soon.
 
 Licensing
