@@ -50,7 +50,7 @@ Pinout
 Source / Buy
 ============
 
- * OSHPark: N/A
+ * [OSHPark Bare Printed Circuit Board](https://oshpark.com/shared_projects/vuCC4q1n)
  * [1BitSquared USA](https://1bitsquared.com/products/jtag-swd-100mil-pitch-breakout)
  * [1BitSquared Germany/EU](https://1bitsquared.de/products/jtag-swd-100mil-pitch-breakout)
 
