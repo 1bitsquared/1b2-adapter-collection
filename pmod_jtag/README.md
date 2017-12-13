@@ -56,7 +56,7 @@ PMOD aka. 2 Row 6 Pin 0.1" pitch connector:
 Source / Buy
 ============
 
- * OSHPark: N/A
+ * [OSHPark Bare PCB](https://oshpark.com/shared_projects/SvE68Mwi)
  * 1BitSquared: Will be available soon.
 
 Licensing

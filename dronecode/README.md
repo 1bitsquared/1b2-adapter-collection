@@ -66,7 +66,7 @@ Dronecode micro debug connector, JST SM06B-SURS-TF:
 Source / Buy
 ============
 
- * OSHPark: N/A
+ * [OSHPark Bare PCB](https://oshpark.com/shared_projects/pGgFGPPo)
  * [1BitSquared USA](https://1bitsquared.com/products/drone-code-debug-adapter)
  * [1BitSquared Germany/EU](https://1bitsquared.de/products/drone-code-debug-adapter)
 

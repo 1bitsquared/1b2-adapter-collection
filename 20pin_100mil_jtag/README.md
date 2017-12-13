@@ -5,6 +5,6 @@ the reset tact switch.
 Source
 ======
 
- * OSHPark: N/A
+ * [OSHPark Bare PCB](https://oshpark.com/shared_projects/qpqrLw2D)
  * 1BitSquared: Currently not in production in favor of the half SMD design.
 
