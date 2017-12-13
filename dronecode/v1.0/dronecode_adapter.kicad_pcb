@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
 
   (general
     (links 80)
     (no_connects 0)
-    (area 19.924999 19.924999 38.075001 48.075001)
+    (area 16.7 15.3 47.85 50.425)
     (thickness 1.6)
-    (drawings 43)
+    (drawings 44)
     (tracks 108)
     (zones 0)
     (modules 64)
@@ -66,7 +66,7 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 0.65 0.6)
+    (pad_size 0.74 2.8)
     (pad_drill 0)
     (pad_to_mask_clearance 0.075)
     (aux_axis_origin 0 0)
@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber))
+      (outputdirectory dronecode_gerber))
   )
 
   (net 0 "")
@@ -879,7 +879,7 @@
     (pad "" smd rect (at 3.8 1.9375 270) (size 1.2 1.8) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module pkl_samtec:FTSH-105-XX-X-DV (layer F.Cu) (tedit 56B312CE) (tstamp 56B776D9)
+  (module pkl_samtec:FTSH-105-XX-X-DV (layer F.Cu) (tedit 5A315026) (tstamp 56B776D9)
     (at 34.1 26.1 90)
     (path /56B39A9A)
     (fp_text reference X1 (at 0 4.5 90) (layer F.Fab) hide
@@ -905,7 +905,7 @@
     (fp_line (start -1.9812 2.8956) (end -1.8288 2.8956) (layer F.SilkS) (width 0.15))
     (fp_line (start -3.15 -2.9) (end -3.15 2.9) (layer F.SilkS) (width 0.15))
     (fp_line (start 3.15 -2.9) (end 3.15 2.9) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -2.54 2 90) (size 0.74 2.8) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd oval (at -2.54 2 90) (size 0.74 2.8) (layers F.Cu F.Paste F.Mask)
       (net 8 VCC))
     (pad 2 smd rect (at -2.54 -2 90) (size 0.74 2.8) (layers F.Cu F.Paste F.Mask)
       (net 6 /TMS/SWDIO))
@@ -1216,6 +1216,9 @@
     (fp_line (start -1 1) (end -1 5) (layer B.SilkS) (width 0.4))
   )
 
+  (gr_text 1 (at 36.2 30.8 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (dimension 18 (width 0.3) (layer Dwgs.User)
     (gr_text "18.000 mm" (at 29 16.65) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
